@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "authenticationType": "jwt",
+    "baseName": "restaurant",
+    "buildTool": "maven",
+    "enableTranslation": true,
+    "entities": ["MenuItem", "Order", "OrderItem", "Reservation", "Staff", "Customer"],
+    "jhipsterVersion": "8.8.0",
+    "jwtSecretKey": "ZDYwYzY2YjQ3NzAwZTRhZDQ3ZjRiZTFlNjk0YzZmYmQ3OTQ2ZTZiNzAyMjNjMDhiNzhhNTM2YmNkNDc1NjdjM2M2ZGMwZjFhZTFiMWIyYWJhMzJiNTM2NTBmNjE5ODFhMjI2ZmRiOGM5MWY5ZjE4ZWI5ODJmMjI2OTIzMjk1MTE=",
+    "languages": ["en", "es"],
+    "lastLiquibaseTimestamp": 1737205740000,
+    "nativeLanguage": "en",
+    "packageName": "com.cbse.restaurant",
+    "prodDatabaseType": "mysql",
+    "skipClient": true
+  }
+}

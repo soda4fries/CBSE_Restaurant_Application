@@ -1,0 +1,11 @@
+id;first_name;last_name;email;phone;role;join_date;is_active
+1;Mitchell;Dietrich;"qC[.@J.gzY";1-903-691-1569 x1307;WAITER;2025-01-17;false
+2;Mayra;Bogan;"U!-)@0'.x{nC";764-713-6820 x190;MANAGER;2025-01-17;true
+3;Raphael;Parker;"g=@U3Z.D5mTT";244-432-8339;CASHIER;2025-01-18;false
+4;Dolores;Gutkowski;"M@8pL+).}0";784.895.2260;CLEANER;2025-01-17;false
+5;Sim;Kuhlman;"V4lQ(@-8}*|.8;v";900-387-0746 x47611;CHEF;2025-01-18;false
+6;Frederick;West;"I<d@TxmO.>:0f4";413-305-2980;MANAGER;2025-01-18;true
+7;Velda;Beer;",h/C@w3.[S*Kj";(926) 784-8763;CLEANER;2025-01-18;true
+8;Connie;Lehner;"!ovk4@qn.e,&A[";852-963-8527;WAITER;2025-01-18;false
+9;Tate;Cole;"|0`r@y.hB]+";(917) 345-6019;MANAGER;2025-01-18;false
+10;Tavares;Lindgren;"QO^@;pk}d.9`";1-912-411-7522 x771;CASHIER;2025-01-17;true

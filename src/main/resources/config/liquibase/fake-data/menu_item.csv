@@ -1,0 +1,11 @@
+id;name;description;price;category;spicy_level;is_vegetarian;is_available;image;image_content_type
+1;even;even;1669.47;SPECIAL;MILD;false;false;../fake-data/blob/hipster.png;image/png
+2;bidet subtract even;homely doubter after;20726.6;BEVERAGE;HOT;true;true;../fake-data/blob/hipster.png;image/png
+3;hmph;oof;25136.33;MAIN_COURSE;HOT;false;true;../fake-data/blob/hipster.png;image/png
+4;propound lieu porter;baritone steel;11130.7;APPETIZER;EXTRA_HOT;false;false;../fake-data/blob/hipster.png;image/png
+5;fuzzy apud;fill who;11206.56;MAIN_COURSE;MEDIUM;true;true;../fake-data/blob/hipster.png;image/png
+6;wedding;ew exalted;30602.15;MAIN_COURSE;NOT_SPICY;false;true;../fake-data/blob/hipster.png;image/png
+7;vice nor;including irritably anti;28978.57;DESSERT;MEDIUM;false;false;../fake-data/blob/hipster.png;image/png
+8;marathon;assured;17132.13;DESSERT;NOT_SPICY;true;true;../fake-data/blob/hipster.png;image/png
+9;mozzarella psst around;yahoo;5656.88;MAIN_COURSE;EXTRA_HOT;false;true;../fake-data/blob/hipster.png;image/png
+10;assist unless;aboard frizzy among;24845.28;MAIN_COURSE;EXTRA_HOT;false;true;../fake-data/blob/hipster.png;image/png

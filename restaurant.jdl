@@ -1,0 +1,123 @@
+application {
+  config {
+    baseName restaurant
+    packageName com.cbse.restaurant
+    authenticationType jwt
+    prodDatabaseType mysql
+    buildTool maven
+    skipClient true
+    enableTranslation true
+    nativeLanguage en
+    languages [en, es]
+  }
+  entities *
+}
+
+/** Menu items available in the restaurant */
+entity MenuItem {
+    name String required
+    description String
+    price BigDecimal required min(0)
+    category MenuCategory required
+    spicyLevel SpicyLevel
+    isVegetarian Boolean
+    isAvailable Boolean required
+    image ImageBlob
+}
+
+enum MenuCategory {
+    APPETIZER, MAIN_COURSE, DESSERT, BEVERAGE, SPECIAL
+}
+
+enum SpicyLevel {
+    NOT_SPICY, MILD, MEDIUM, HOT, EXTRA_HOT
+}
+
+/** Restaurant orders */
+entity Order {
+    orderDate Instant required
+    status OrderStatus required
+    totalAmount BigDecimal required min(0)
+    paymentMethod PaymentMethod required
+    paymentReference String
+    specialInstructions String
+    deliveryAddress String
+}
+
+enum OrderStatus {
+    NEW, PREPARING, READY, DELIVERED, CANCELLED, COMPLETED
+}
+
+enum PaymentMethod {
+    CASH, CREDIT_CARD, DEBIT_CARD, MOBILE_PAYMENT
+}
+
+/** Individual items within an order */
+entity OrderItem {
+    quantity Integer required min(1)
+    notes String
+    subtotal BigDecimal required min(0)
+}
+
+/** Table reservations */
+entity Reservation {
+    reservationDate Instant required
+    partySize Integer required min(1)
+    status ReservationStatus required
+    customerName String required
+    customerEmail String required pattern(/^[^@\s]+@[^@\s]+\.[^@\s]+$/)
+    customerPhone String required
+    specialRequests String
+}
+
+enum ReservationStatus {
+    PENDING, CONFIRMED, CANCELLED, COMPLETED
+}
+
+/** Restaurant staff */
+entity Staff {
+    firstName String required
+    lastName String required
+    email String required pattern(/^[^@\s]+@[^@\s]+\.[^@\s]+$/)
+    phone String required
+    role StaffRole required
+    joinDate LocalDate required
+    isActive Boolean required
+}
+
+enum StaffRole {
+    MANAGER, CHEF, WAITER, CASHIER, CLEANER
+}
+
+/** Customer profiles */
+entity Customer {
+    firstName String required
+    lastName String required
+    email String required pattern(/^[^@\s]+@[^@\s]+\.[^@\s]+$/)
+    phone String required
+    addressLine1 String required
+    addressLine2 String
+    city String required
+    country String required
+    loyaltyPoints Integer
+    lastVisit LocalDate
+}
+
+relationship OneToOne {
+    Customer{user(login)} to User with builtInEntity
+}
+
+relationship ManyToOne {
+    OrderItem{menuItem(name) required} to MenuItem,
+    Staff{manager} to Staff,
+    Order{customer} to Customer
+}
+
+relationship OneToMany {
+    Order{orderItems} to OrderItem{order required},
+    Customer{reservations} to Reservation{customer}
+}
+
+dto * with mapstruct
+service * with serviceClass
+paginate * with pagination

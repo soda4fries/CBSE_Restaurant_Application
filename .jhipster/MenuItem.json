@@ -1,0 +1,54 @@
+{
+  "annotations": {
+    "changelogDate": "20250118130400"
+  },
+  "applications": ["restaurant"],
+  "documentation": "Menu items available in the restaurant",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "BigDecimal",
+      "fieldValidateRules": ["required", "min"],
+      "fieldValidateRulesMin": "0"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "MenuCategory",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "APPETIZER,MAIN_COURSE,DESSERT,BEVERAGE,SPECIAL"
+    },
+    {
+      "fieldName": "spicyLevel",
+      "fieldType": "SpicyLevel",
+      "fieldValues": "NOT_SPICY,MILD,MEDIUM,HOT,EXTRA_HOT"
+    },
+    {
+      "fieldName": "isVegetarian",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isAvailable",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "ImageBlob"
+    }
+  ],
+  "name": "MenuItem",
+  "pagination": "pagination",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

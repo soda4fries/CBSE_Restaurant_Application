@@ -1,0 +1,11 @@
+id;order_date;status;total_amount;payment_method;payment_reference;special_instructions;delivery_address
+1;2025-01-17T19:44:36;READY;20576.21;CREDIT_CARD;miserably;readies unripe decisive;ew
+2;2025-01-18T06:08:48;DELIVERED;30925.91;DEBIT_CARD;inasmuch;blah tomb daughter;even
+3;2025-01-18T00:08:39;CANCELLED;12953.86;CREDIT_CARD;than;intently license;midst
+4;2025-01-17T21:59:26;COMPLETED;22044.48;CASH;simplistic alongside bitterly;finished since needily;but ape
+5;2025-01-18T04:00:34;PREPARING;17709.11;MOBILE_PAYMENT;vastly;personalise fluff wee;exactly
+6;2025-01-18T02:27:28;COMPLETED;31931.36;CASH;guide famously decongestant;because zowie;standard following
+7;2025-01-17T18:21:27;PREPARING;26944.57;DEBIT_CARD;finally outrageous;athwart atomize;loftily psst
+8;2025-01-17T16:27:35;PREPARING;11200.63;MOBILE_PAYMENT;pasta annually ew;nearly;short-term untrue
+9;2025-01-18T00:45:38;NEW;21592.81;DEBIT_CARD;furthermore till;restfully;fuss
+10;2025-01-18T05:44:46;NEW;19792.96;DEBIT_CARD;pish vaguely spiteful;fellow when;adventurously
