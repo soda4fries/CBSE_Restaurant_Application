@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 import com.cbse.restaurant.IntegrationTest;
 import com.cbse.restaurant.domain.User;
 import com.cbse.restaurant.repository.UserRepository;
-import com.cbse.restaurant.service.UserService;
+import com.cbse.restaurant.service.Impl.UserService;
 import java.util.Locale;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.AfterEach;

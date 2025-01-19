@@ -1,4 +1,4 @@
-package com.cbse.restaurant.service;
+package com.cbse.restaurant.service.Impl;
 
 import com.cbse.restaurant.domain.Reservation;
 import com.cbse.restaurant.repository.ReservationRepository;
@@ -17,15 +17,15 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 @Transactional
-public class ReservationService {
+public class ReservationServiceImpl implements ReservationService {
 
-    private static final Logger LOG = LoggerFactory.getLogger(ReservationService.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ReservationServiceImpl.class);
 
     private final ReservationRepository reservationRepository;
 
     private final ReservationMapper reservationMapper;
 
-    public ReservationService(ReservationRepository reservationRepository, ReservationMapper reservationMapper) {
+    public ReservationServiceImpl(ReservationRepository reservationRepository, ReservationMapper reservationMapper) {
         this.reservationRepository = reservationRepository;
         this.reservationMapper = reservationMapper;
     }
@@ -36,6 +36,7 @@ public class ReservationService {
      * @param reservationDTO the entity to save.
      * @return the persisted entity.
      */
+    @Override
     public ReservationDTO save(ReservationDTO reservationDTO) {
         LOG.debug("Request to save Reservation : {}", reservationDTO);
         Reservation reservation = reservationMapper.toEntity(reservationDTO);
@@ -49,6 +50,7 @@ public class ReservationService {
      * @param reservationDTO the entity to save.
      * @return the persisted entity.
      */
+    @Override
     public ReservationDTO update(ReservationDTO reservationDTO) {
         LOG.debug("Request to update Reservation : {}", reservationDTO);
         Reservation reservation = reservationMapper.toEntity(reservationDTO);
@@ -62,6 +64,7 @@ public class ReservationService {
      * @param reservationDTO the entity to update partially.
      * @return the persisted entity.
      */
+    @Override
     public Optional<ReservationDTO> partialUpdate(ReservationDTO reservationDTO) {
         LOG.debug("Request to partially update Reservation : {}", reservationDTO);
 
@@ -82,6 +85,7 @@ public class ReservationService {
      * @param pageable the pagination information.
      * @return the list of entities.
      */
+    @Override
     @Transactional(readOnly = true)
     public Page<ReservationDTO> findAll(Pageable pageable) {
         LOG.debug("Request to get all Reservations");
@@ -94,6 +98,7 @@ public class ReservationService {
      * @param id the id of the entity.
      * @return the entity.
      */
+    @Override
     @Transactional(readOnly = true)
     public Optional<ReservationDTO> findOne(Long id) {
         LOG.debug("Request to get Reservation : {}", id);
@@ -105,6 +110,7 @@ public class ReservationService {
      *
      * @param id the id of the entity.
      */
+    @Override
     public void delete(Long id) {
         LOG.debug("Request to delete Reservation : {}", id);
         reservationRepository.deleteById(id);

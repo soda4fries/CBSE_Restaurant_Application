@@ -14,7 +14,7 @@ import com.cbse.restaurant.domain.MenuItem;
 import com.cbse.restaurant.domain.Order;
 import com.cbse.restaurant.domain.OrderItem;
 import com.cbse.restaurant.repository.OrderItemRepository;
-import com.cbse.restaurant.service.OrderItemService;
+import com.cbse.restaurant.service.Impl.OrderItemService;
 import com.cbse.restaurant.service.dto.OrderItemDTO;
 import com.cbse.restaurant.service.mapper.OrderItemMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;

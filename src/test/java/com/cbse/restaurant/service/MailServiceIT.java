@@ -7,6 +7,7 @@ import static org.mockito.Mockito.*;
 import com.cbse.restaurant.IntegrationTest;
 import com.cbse.restaurant.config.Constants;
 import com.cbse.restaurant.domain.User;
+import com.cbse.restaurant.service.Impl.MailService;
 import jakarta.mail.Multipart;
 import jakarta.mail.Session;
 import jakarta.mail.internet.MimeBodyPart;
@@ -38,11 +39,7 @@ import tech.jhipster.config.JHipsterProperties;
 @IntegrationTest
 class MailServiceIT {
 
-    private static final String[] languages = {
-        "en",
-        "es",
-        // jhipster-needle-i18n-language-constant - JHipster will add/remove languages in this array
-    };
+    private static final String[] languages = { "en", "es" };
     private static final Pattern PATTERN_LOCALE_3 = Pattern.compile("([a-z]{2})-([a-zA-Z]{4})-([a-z]{2})");
     private static final Pattern PATTERN_LOCALE_2 = Pattern.compile("([a-z]{2})-([a-z]{2})");
 

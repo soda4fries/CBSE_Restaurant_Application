@@ -1,4 +1,4 @@
-package com.cbse.restaurant.service;
+package com.cbse.restaurant.service.Impl;
 
 public class InvalidPasswordException extends RuntimeException {
 

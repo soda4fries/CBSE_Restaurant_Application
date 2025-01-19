@@ -10,7 +10,7 @@ import com.cbse.restaurant.domain.User;
 import com.cbse.restaurant.repository.AuthorityRepository;
 import com.cbse.restaurant.repository.UserRepository;
 import com.cbse.restaurant.security.AuthoritiesConstants;
-import com.cbse.restaurant.service.UserService;
+import com.cbse.restaurant.service.Impl.UserService;
 import com.cbse.restaurant.service.dto.AdminUserDTO;
 import com.cbse.restaurant.service.dto.PasswordChangeDTO;
 import com.cbse.restaurant.web.rest.vm.KeyAndPasswordVM;

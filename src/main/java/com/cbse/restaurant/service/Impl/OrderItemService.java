@@ -1,4 +1,4 @@
-package com.cbse.restaurant.service;
+package com.cbse.restaurant.service.Impl;
 
 import com.cbse.restaurant.domain.OrderItem;
 import com.cbse.restaurant.repository.OrderItemRepository;

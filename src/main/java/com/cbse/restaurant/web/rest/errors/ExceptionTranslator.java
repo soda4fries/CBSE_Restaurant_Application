@@ -2,6 +2,7 @@ package com.cbse.restaurant.web.rest.errors;
 
 import static org.springframework.core.annotation.AnnotatedElementUtils.findMergedAnnotation;
 
+import com.cbse.restaurant.service.Impl.UsernameAlreadyUsedException;
 import jakarta.servlet.http.HttpServletRequest;
 import java.net.URI;
 import java.util.Arrays;
@@ -81,14 +82,12 @@ public class ExceptionTranslator extends ResponseEntityExceptionHandler {
     }
 
     private ProblemDetailWithCause getProblemDetailWithCause(Throwable ex) {
+        if (ex instanceof UsernameAlreadyUsedException) return (ProblemDetailWithCause) new LoginAlreadyUsedException().getBody();
         if (
-            ex instanceof com.cbse.restaurant.service.UsernameAlreadyUsedException
-        ) return (ProblemDetailWithCause) new LoginAlreadyUsedException().getBody();
-        if (
-            ex instanceof com.cbse.restaurant.service.EmailAlreadyUsedException
+            ex instanceof com.cbse.restaurant.service.Impl.EmailAlreadyUsedException
         ) return (ProblemDetailWithCause) new EmailAlreadyUsedException().getBody();
         if (
-            ex instanceof com.cbse.restaurant.service.InvalidPasswordException
+            ex instanceof com.cbse.restaurant.service.Impl.InvalidPasswordException
         ) return (ProblemDetailWithCause) new InvalidPasswordException().getBody();
 
         if (

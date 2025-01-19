@@ -203,15 +203,13 @@ jhipster:
   api-docs:
     default-include-pattern: /api/**
     management-include-pattern: /management/**
-    title: Restaurant API
-    description: Restaurant API documentation
-    version: 0.0.1
+    title: Restaurant Management API
+    description: A Restaurant Management Application Developed Using SpringBoot for WIF:3006 - CBSE
+    version: 1.0.1
     terms-of-service-url:
-    contact-name:
+    contact-name: rahmanmahdinur
     contact-url:
-    contact-email:
-    license: unlicensed
-    license-url:
+    contact-email: s2176468@siswa.um.edu.my
   security:
 # ===================================================================
 # Application specific properties

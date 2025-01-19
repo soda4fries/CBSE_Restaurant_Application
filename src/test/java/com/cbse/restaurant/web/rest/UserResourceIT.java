@@ -9,7 +9,7 @@ import com.cbse.restaurant.IntegrationTest;
 import com.cbse.restaurant.domain.User;
 import com.cbse.restaurant.repository.UserRepository;
 import com.cbse.restaurant.security.AuthoritiesConstants;
-import com.cbse.restaurant.service.UserService;
+import com.cbse.restaurant.service.Impl.UserService;
 import com.cbse.restaurant.service.dto.AdminUserDTO;
 import com.cbse.restaurant.service.mapper.UserMapper;
 import com.fasterxml.jackson.databind.ObjectMapper;

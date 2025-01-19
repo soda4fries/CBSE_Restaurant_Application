@@ -1,6 +1,6 @@
 package com.cbse.restaurant.web.rest;
 
-import com.cbse.restaurant.service.UserService;
+import com.cbse.restaurant.service.Impl.UserService;
 import com.cbse.restaurant.service.dto.UserDTO;
 import java.util.*;
 import org.slf4j.Logger;

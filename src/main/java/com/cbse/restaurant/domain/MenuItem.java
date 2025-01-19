@@ -60,8 +60,6 @@ public class MenuItem implements Serializable {
     @Column(name = "image_content_type")
     private String imageContentType;
 
-    // jhipster-needle-entity-add-field - JHipster will add fields here
-
     public Long getId() {
         return this.id;
     }
@@ -192,8 +190,6 @@ public class MenuItem implements Serializable {
         this.imageContentType = imageContentType;
     }
 
-    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
-
     @Override
     public boolean equals(Object o) {
         if (this == o) {
@@ -207,7 +203,6 @@ public class MenuItem implements Serializable {
 
     @Override
     public int hashCode() {
-        // see https://vladmihalcea.com/how-to-implement-equals-and-hashcode-using-the-jpa-entity-identifier/
         return getClass().hashCode();
     }
 

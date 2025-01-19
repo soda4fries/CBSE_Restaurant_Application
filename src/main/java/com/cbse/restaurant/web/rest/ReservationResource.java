@@ -1,7 +1,7 @@
 package com.cbse.restaurant.web.rest;
 
 import com.cbse.restaurant.repository.ReservationRepository;
-import com.cbse.restaurant.service.ReservationService;
+import com.cbse.restaurant.service.Impl.ReservationService;
 import com.cbse.restaurant.service.dto.ReservationDTO;
 import com.cbse.restaurant.web.rest.errors.BadRequestAlertException;
 import jakarta.validation.Valid;
