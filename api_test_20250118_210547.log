@@ -1,0 +1,2589 @@
+2025-01-18 21:05:47,715 - {
+  "timestamp": "2025-01-18T21:05:47.715119",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0NywiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ3fQ.JHtJETwiaO9Cj6xfaaTXmY4oVNxHUeKNIAegPHXAMHWrjGYEhjZOXv-pEHsFSJ1tQtlFTxNNR1rdS0H_wOA1vQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:47,946 - {
+  "timestamp": "2025-01-18T21:05:47.946918",
+  "method": "POST",
+  "url": "http://localhost:8080/api/admin/users",
+  "request_data": {
+    "login": "user_yiusdpht",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_vqxkhloe@example.com",
+    "activated": true,
+    "langKey": "en",
+    "authorities": [
+      "ROLE_USER"
+    ]
+  },
+  "response_status": 201,
+  "response_body": {
+    "createdBy": "admin",
+    "createdDate": "2025-01-18T13:05:47.886688700Z",
+    "lastModifiedBy": "admin",
+    "lastModifiedDate": "2025-01-18T13:05:47.886688700Z",
+    "id": 1115,
+    "login": "user_yiusdpht",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_vqxkhloe@example.com",
+    "activated": true,
+    "langKey": "en",
+    "imageUrl": null,
+    "resetDate": "2025-01-18T13:05:47.862487400Z"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,036 - {
+  "timestamp": "2025-01-18T21:05:48.036813",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ4fQ.LOKzveiaUUL-wyDDwwH0ofSJET3V-U21z3HGIsqOb8Bt4fHCd_dK2TEPWOFTen8xwtHLoV_c1cXOsjo4cGqfIA"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,139 - {
+  "timestamp": "2025-01-18T21:05:48.139811",
+  "method": "POST",
+  "url": "http://localhost:8080/api/admin/users",
+  "request_data": {
+    "login": "user_fdktwiqn",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_vwrgheuf@example.com",
+    "activated": true,
+    "langKey": "en",
+    "authorities": [
+      "ROLE_USER"
+    ]
+  },
+  "response_status": 201,
+  "response_body": {
+    "createdBy": "admin",
+    "createdDate": "2025-01-18T13:05:48.122303400Z",
+    "lastModifiedBy": "admin",
+    "lastModifiedDate": "2025-01-18T13:05:48.122303400Z",
+    "id": 1116,
+    "login": "user_fdktwiqn",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_vwrgheuf@example.com",
+    "activated": true,
+    "langKey": "en",
+    "imageUrl": null,
+    "resetDate": "2025-01-18T13:05:48.121304400Z"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,180 - {
+  "timestamp": "2025-01-18T21:05:48.180017",
+  "method": "GET",
+  "url": "http://localhost:8080/api/admin/users/user_fdktwiqn",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1116,
+    "login": "user_fdktwiqn",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_vwrgheuf@example.com",
+    "imageUrl": null,
+    "activated": true,
+    "langKey": "en",
+    "createdBy": "admin",
+    "createdDate": "2025-01-18T13:05:48Z",
+    "lastModifiedBy": "admin",
+    "lastModifiedDate": "2025-01-18T13:05:48Z",
+    "authorities": [
+      "ROLE_USER"
+    ]
+  },
+  "error": null
+}
+2025-01-18 21:05:48,261 - {
+  "timestamp": "2025-01-18T21:05:48.261085",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ4fQ.LOKzveiaUUL-wyDDwwH0ofSJET3V-U21z3HGIsqOb8Bt4fHCd_dK2TEPWOFTen8xwtHLoV_c1cXOsjo4cGqfIA"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,364 - {
+  "timestamp": "2025-01-18T21:05:48.363664",
+  "method": "POST",
+  "url": "http://localhost:8080/api/admin/users",
+  "request_data": {
+    "login": "user_grvsunam",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_qjklunxq@example.com",
+    "activated": true,
+    "langKey": "en",
+    "authorities": [
+      "ROLE_USER"
+    ]
+  },
+  "response_status": 201,
+  "response_body": {
+    "createdBy": "admin",
+    "createdDate": "2025-01-18T13:05:48.348499Z",
+    "lastModifiedBy": "admin",
+    "lastModifiedDate": "2025-01-18T13:05:48.348499Z",
+    "id": 1117,
+    "login": "user_grvsunam",
+    "firstName": "Admin",
+    "lastName": "User",
+    "email": "test_qjklunxq@example.com",
+    "activated": true,
+    "langKey": "en",
+    "imageUrl": null,
+    "resetDate": "2025-01-18T13:05:48.347482100Z"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,402 - {
+  "timestamp": "2025-01-18T21:05:48.402283",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/admin/users/user_grvsunam",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:48,486 - {
+  "timestamp": "2025-01-18T21:05:48.486100",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ4fQ.LOKzveiaUUL-wyDDwwH0ofSJET3V-U21z3HGIsqOb8Bt4fHCd_dK2TEPWOFTen8xwtHLoV_c1cXOsjo4cGqfIA"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,528 - {
+  "timestamp": "2025-01-18T21:05:48.527903",
+  "method": "POST",
+  "url": "http://localhost:8080/api/staff",
+  "request_data": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_lvvxcuzg@example.com",
+    "phone": "+17026279257",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1594,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_lvvxcuzg@example.com",
+    "phone": "+17026279257",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:48,607 - {
+  "timestamp": "2025-01-18T21:05:48.607168",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ4fQ.LOKzveiaUUL-wyDDwwH0ofSJET3V-U21z3HGIsqOb8Bt4fHCd_dK2TEPWOFTen8xwtHLoV_c1cXOsjo4cGqfIA"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,624 - {
+  "timestamp": "2025-01-18T21:05:48.624185",
+  "method": "POST",
+  "url": "http://localhost:8080/api/staff",
+  "request_data": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_qkfblbjx@example.com",
+    "phone": "+11250484919",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1595,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_qkfblbjx@example.com",
+    "phone": "+11250484919",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:48,645 - {
+  "timestamp": "2025-01-18T21:05:48.645238",
+  "method": "GET",
+  "url": "http://localhost:8080/api/staff/1595",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1595,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_qkfblbjx@example.com",
+    "phone": "+11250484919",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:48,723 - {
+  "timestamp": "2025-01-18T21:05:48.723701",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ4fQ.LOKzveiaUUL-wyDDwwH0ofSJET3V-U21z3HGIsqOb8Bt4fHCd_dK2TEPWOFTen8xwtHLoV_c1cXOsjo4cGqfIA"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,741 - {
+  "timestamp": "2025-01-18T21:05:48.741334",
+  "method": "POST",
+  "url": "http://localhost:8080/api/staff",
+  "request_data": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_cspeijsq@example.com",
+    "phone": "+16537480322",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1596,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_cspeijsq@example.com",
+    "phone": "+16537480322",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:48,785 - {
+  "timestamp": "2025-01-18T21:05:48.784425",
+  "method": "PUT",
+  "url": "http://localhost:8080/api/staff/1596",
+  "request_data": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "test_cspeijsq@example.com",
+    "phone": "+16537480322",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "id": 1596
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1596,
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "test_cspeijsq@example.com",
+    "phone": "+16537480322",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:48,863 - {
+  "timestamp": "2025-01-18T21:05:48.863117",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ4fQ.LOKzveiaUUL-wyDDwwH0ofSJET3V-U21z3HGIsqOb8Bt4fHCd_dK2TEPWOFTen8xwtHLoV_c1cXOsjo4cGqfIA"
+  },
+  "error": null
+}
+2025-01-18 21:05:48,881 - {
+  "timestamp": "2025-01-18T21:05:48.881045",
+  "method": "POST",
+  "url": "http://localhost:8080/api/staff",
+  "request_data": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_tymslnye@example.com",
+    "phone": "+12334446359",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1597,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_tymslnye@example.com",
+    "phone": "+12334446359",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:48,924 - {
+  "timestamp": "2025-01-18T21:05:48.924914",
+  "method": "PATCH",
+  "url": "http://localhost:8080/api/staff/1597",
+  "request_data": {
+    "id": 1597,
+    "firstName": "Janet"
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1597,
+    "firstName": "Janet",
+    "lastName": "Doe",
+    "email": "test_tymslnye@example.com",
+    "phone": "+12334446359",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,009 - {
+  "timestamp": "2025-01-18T21:05:49.008473",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,027 - {
+  "timestamp": "2025-01-18T21:05:49.027211",
+  "method": "POST",
+  "url": "http://localhost:8080/api/staff",
+  "request_data": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_ijynckrg@example.com",
+    "phone": "+12475684250",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1598,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "test_ijynckrg@example.com",
+    "phone": "+12475684250",
+    "role": "WAITER",
+    "joinDate": "2025-01-18",
+    "isActive": true,
+    "manager": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,048 - {
+  "timestamp": "2025-01-18T21:05:49.048598",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/staff/1598",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:49,128 - {
+  "timestamp": "2025-01-18T21:05:49.128321",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,166 - {
+  "timestamp": "2025-01-18T21:05:49.166142",
+  "method": "POST",
+  "url": "http://localhost:8080/api/customers",
+  "request_data": {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_qkmhfvoc@example.com",
+    "phone": "+16634480827",
+    "addressLine1": "123 Main St",
+    "city": "Boston",
+    "country": "USA"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1594,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_qkmhfvoc@example.com",
+    "phone": "+16634480827",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,249 - {
+  "timestamp": "2025-01-18T21:05:49.249617",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,266 - {
+  "timestamp": "2025-01-18T21:05:49.265810",
+  "method": "POST",
+  "url": "http://localhost:8080/api/customers",
+  "request_data": {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_tiiasscs@example.com",
+    "phone": "+12678714313",
+    "addressLine1": "123 Main St",
+    "city": "Boston",
+    "country": "USA"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1595,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_tiiasscs@example.com",
+    "phone": "+12678714313",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,290 - {
+  "timestamp": "2025-01-18T21:05:49.290820",
+  "method": "GET",
+  "url": "http://localhost:8080/api/customers/1595",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1595,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_tiiasscs@example.com",
+    "phone": "+12678714313",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,369 - {
+  "timestamp": "2025-01-18T21:05:49.369566",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,388 - {
+  "timestamp": "2025-01-18T21:05:49.388755",
+  "method": "POST",
+  "url": "http://localhost:8080/api/customers",
+  "request_data": {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_jzvzpasb@example.com",
+    "phone": "+18738909872",
+    "addressLine1": "123 Main St",
+    "city": "Boston",
+    "country": "USA"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1596,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_jzvzpasb@example.com",
+    "phone": "+18738909872",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,428 - {
+  "timestamp": "2025-01-18T21:05:49.428634",
+  "method": "PUT",
+  "url": "http://localhost:8080/api/customers/1596",
+  "request_data": {
+    "firstName": "Alicia",
+    "lastName": "Smith",
+    "email": "test_jzvzpasb@example.com",
+    "phone": "+18738909872",
+    "addressLine1": "123 Main St",
+    "city": "Boston",
+    "country": "USA",
+    "id": 1596
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1596,
+    "firstName": "Alicia",
+    "lastName": "Smith",
+    "email": "test_jzvzpasb@example.com",
+    "phone": "+18738909872",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,513 - {
+  "timestamp": "2025-01-18T21:05:49.513085",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,534 - {
+  "timestamp": "2025-01-18T21:05:49.534172",
+  "method": "POST",
+  "url": "http://localhost:8080/api/customers",
+  "request_data": {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_fzhftaqu@example.com",
+    "phone": "+15591134936",
+    "addressLine1": "123 Main St",
+    "city": "Boston",
+    "country": "USA"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1597,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_fzhftaqu@example.com",
+    "phone": "+15591134936",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,569 - {
+  "timestamp": "2025-01-18T21:05:49.569994",
+  "method": "PATCH",
+  "url": "http://localhost:8080/api/customers/1597",
+  "request_data": {
+    "id": 1597,
+    "firstName": "Alexandra"
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1597,
+    "firstName": "Alexandra",
+    "lastName": "Smith",
+    "email": "test_fzhftaqu@example.com",
+    "phone": "+15591134936",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,659 - {
+  "timestamp": "2025-01-18T21:05:49.659894",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,677 - {
+  "timestamp": "2025-01-18T21:05:49.677458",
+  "method": "POST",
+  "url": "http://localhost:8080/api/customers",
+  "request_data": {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_nntbphev@example.com",
+    "phone": "+17249746941",
+    "addressLine1": "123 Main St",
+    "city": "Boston",
+    "country": "USA"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1598,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "test_nntbphev@example.com",
+    "phone": "+17249746941",
+    "addressLine1": "123 Main St",
+    "addressLine2": null,
+    "city": "Boston",
+    "country": "USA",
+    "loyaltyPoints": null,
+    "lastVisit": null,
+    "user": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,703 - {
+  "timestamp": "2025-01-18T21:05:49.702910",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/customers/1598",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:49,785 - {
+  "timestamp": "2025-01-18T21:05:49.785150",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,821 - {
+  "timestamp": "2025-01-18T21:05:49.821653",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1688,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,901 - {
+  "timestamp": "2025-01-18T21:05:49.901698",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU0OSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTQ5fQ.dFGXUQI_Pjhuznh6RWdWhxnqk0Ij3_xqBwhwRgSwRhoOWWmfJCmNepv4i0omPaMMTkGTi2K8ILT25hYIQB5lOA"
+  },
+  "error": null
+}
+2025-01-18 21:05:49,918 - {
+  "timestamp": "2025-01-18T21:05:49.918645",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1689,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:49,936 - {
+  "timestamp": "2025-01-18T21:05:49.936161",
+  "method": "GET",
+  "url": "http://localhost:8080/api/menu-items/1689",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1689,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,019 - {
+  "timestamp": "2025-01-18T21:05:50.019836",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,040 - {
+  "timestamp": "2025-01-18T21:05:50.040343",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1690,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,076 - {
+  "timestamp": "2025-01-18T21:05:50.076912",
+  "method": "PUT",
+  "url": "http://localhost:8080/api/menu-items/1690",
+  "request_data": {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 17.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "id": 1690
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1690,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 17.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,164 - {
+  "timestamp": "2025-01-18T21:05:50.164364",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,178 - {
+  "timestamp": "2025-01-18T21:05:50.178640",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1691,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,205 - {
+  "timestamp": "2025-01-18T21:05:50.205844",
+  "method": "PATCH",
+  "url": "http://localhost:8080/api/menu-items/1691",
+  "request_data": {
+    "id": 1691,
+    "price": 16.99
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1691,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 16.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,284 - {
+  "timestamp": "2025-01-18T21:05:50.284140",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,298 - {
+  "timestamp": "2025-01-18T21:05:50.298874",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1692,
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish",
+    "price": 15.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": "NOT_SPICY",
+    "isVegetarian": false,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,319 - {
+  "timestamp": "2025-01-18T21:05:50.319168",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/menu-items/1692",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:50,397 - {
+  "timestamp": "2025-01-18T21:05:50.397176",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,438 - {
+  "timestamp": "2025-01-18T21:05:50.438283",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1688,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,521 - {
+  "timestamp": "2025-01-18T21:05:50.521955",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,538 - {
+  "timestamp": "2025-01-18T21:05:50.538769",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1689,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,554 - {
+  "timestamp": "2025-01-18T21:05:50.554501",
+  "method": "GET",
+  "url": "http://localhost:8080/api/orders/1689",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1689,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,632 - {
+  "timestamp": "2025-01-18T21:05:50.632800",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,648 - {
+  "timestamp": "2025-01-18T21:05:50.648832",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1690,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,711 - {
+  "timestamp": "2025-01-18T21:05:50.711183",
+  "method": "PUT",
+  "url": "http://localhost:8080/api/orders/1690",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "PREPARING",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "id": 1690
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1690,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "PREPARING",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,791 - {
+  "timestamp": "2025-01-18T21:05:50.791997",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,808 - {
+  "timestamp": "2025-01-18T21:05:50.808818",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1691,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,835 - {
+  "timestamp": "2025-01-18T21:05:50.835592",
+  "method": "PATCH",
+  "url": "http://localhost:8080/api/orders/1691",
+  "request_data": {
+    "id": 1691,
+    "status": "READY"
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1691,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "READY",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,914 - {
+  "timestamp": "2025-01-18T21:05:50.914928",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MCwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUwfQ.eLr_zDI0QtK4KXqVaJc_Gahw4EbZoGl_r25LjaFnZz445JT6JgSsP3FswcZE4qoxJhNWcG1jNY3a3o4BJC4Eng"
+  },
+  "error": null
+}
+2025-01-18 21:05:50,934 - {
+  "timestamp": "2025-01-18T21:05:50.933842",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1692,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 45.98,
+    "paymentMethod": "CREDIT_CARD",
+    "paymentReference": "REF123",
+    "specialInstructions": "No onions please",
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:50,959 - {
+  "timestamp": "2025-01-18T21:05:50.958670",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/orders/1692",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:51,037 - {
+  "timestamp": "2025-01-18T21:05:51.037407",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,053 - {
+  "timestamp": "2025-01-18T21:05:51.053468",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Test Item",
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1693,
+    "name": "Test Item",
+    "description": null,
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": null,
+    "isVegetarian": null,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,067 - {
+  "timestamp": "2025-01-18T21:05:51.067802",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1693,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH",
+    "paymentReference": null,
+    "specialInstructions": null,
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,091 - {
+  "timestamp": "2025-01-18T21:05:51.091486",
+  "method": "POST",
+  "url": "http://localhost:8080/api/order-items",
+  "request_data": {
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1693
+    },
+    "order": {
+      "id": 1693
+    }
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1594,
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1693,
+      "name": null,
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1693,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,170 - {
+  "timestamp": "2025-01-18T21:05:51.169899",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,186 - {
+  "timestamp": "2025-01-18T21:05:51.185605",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Test Item",
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1694,
+    "name": "Test Item",
+    "description": null,
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": null,
+    "isVegetarian": null,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,199 - {
+  "timestamp": "2025-01-18T21:05:51.199160",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1694,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH",
+    "paymentReference": null,
+    "specialInstructions": null,
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,212 - {
+  "timestamp": "2025-01-18T21:05:51.212163",
+  "method": "POST",
+  "url": "http://localhost:8080/api/order-items",
+  "request_data": {
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1694
+    },
+    "order": {
+      "id": 1694
+    }
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1595,
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1694,
+      "name": null,
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1694,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,232 - {
+  "timestamp": "2025-01-18T21:05:51.232994",
+  "method": "GET",
+  "url": "http://localhost:8080/api/order-items/1595",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1595,
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1694,
+      "name": "Test Item",
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1694,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,310 - {
+  "timestamp": "2025-01-18T21:05:51.310638",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,330 - {
+  "timestamp": "2025-01-18T21:05:51.330302",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Test Item",
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1695,
+    "name": "Test Item",
+    "description": null,
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": null,
+    "isVegetarian": null,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,346 - {
+  "timestamp": "2025-01-18T21:05:51.346065",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1695,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH",
+    "paymentReference": null,
+    "specialInstructions": null,
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,359 - {
+  "timestamp": "2025-01-18T21:05:51.358960",
+  "method": "POST",
+  "url": "http://localhost:8080/api/order-items",
+  "request_data": {
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1695
+    },
+    "order": {
+      "id": 1695
+    }
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1596,
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1695,
+      "name": null,
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1695,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,389 - {
+  "timestamp": "2025-01-18T21:05:51.389436",
+  "method": "PUT",
+  "url": "http://localhost:8080/api/order-items/1596",
+  "request_data": {
+    "quantity": 2,
+    "notes": "Extra cheese",
+    "subtotal": 21.98,
+    "menuItem": {
+      "id": 1695
+    },
+    "order": {
+      "id": 1695
+    },
+    "id": 1596
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1596,
+    "quantity": 2,
+    "notes": "Extra cheese",
+    "subtotal": 21.98,
+    "menuItem": {
+      "id": 1695,
+      "name": "Test Item",
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1695,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,469 - {
+  "timestamp": "2025-01-18T21:05:51.469189",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,484 - {
+  "timestamp": "2025-01-18T21:05:51.484451",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Test Item",
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1696,
+    "name": "Test Item",
+    "description": null,
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": null,
+    "isVegetarian": null,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,497 - {
+  "timestamp": "2025-01-18T21:05:51.497544",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1696,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH",
+    "paymentReference": null,
+    "specialInstructions": null,
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,512 - {
+  "timestamp": "2025-01-18T21:05:51.512004",
+  "method": "POST",
+  "url": "http://localhost:8080/api/order-items",
+  "request_data": {
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1696
+    },
+    "order": {
+      "id": 1696
+    }
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1597,
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1696,
+      "name": null,
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1696,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,538 - {
+  "timestamp": "2025-01-18T21:05:51.537833",
+  "method": "PATCH",
+  "url": "http://localhost:8080/api/order-items/1597",
+  "request_data": {
+    "id": 1597,
+    "quantity": 3,
+    "subtotal": 32.97
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1597,
+    "quantity": 3,
+    "notes": "Extra cheese",
+    "subtotal": 32.97,
+    "menuItem": {
+      "id": 1696,
+      "name": "Test Item",
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1696,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,614 - {
+  "timestamp": "2025-01-18T21:05:51.614493",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,629 - {
+  "timestamp": "2025-01-18T21:05:51.629260",
+  "method": "POST",
+  "url": "http://localhost:8080/api/menu-items",
+  "request_data": {
+    "name": "Test Item",
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "isAvailable": true
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1697,
+    "name": "Test Item",
+    "description": null,
+    "price": 10.99,
+    "category": "MAIN_COURSE",
+    "spicyLevel": null,
+    "isVegetarian": null,
+    "isAvailable": true,
+    "image": null,
+    "imageContentType": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,644 - {
+  "timestamp": "2025-01-18T21:05:51.644733",
+  "method": "POST",
+  "url": "http://localhost:8080/api/orders",
+  "request_data": {
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1697,
+    "orderDate": "2025-01-18T21:05:00Z",
+    "status": "NEW",
+    "totalAmount": 10.99,
+    "paymentMethod": "CASH",
+    "paymentReference": null,
+    "specialInstructions": null,
+    "deliveryAddress": null,
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,657 - {
+  "timestamp": "2025-01-18T21:05:51.657314",
+  "method": "POST",
+  "url": "http://localhost:8080/api/order-items",
+  "request_data": {
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1697
+    },
+    "order": {
+      "id": 1697
+    }
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1598,
+    "quantity": 1,
+    "notes": "Extra cheese",
+    "subtotal": 10.99,
+    "menuItem": {
+      "id": 1697,
+      "name": null,
+      "description": null,
+      "price": null,
+      "category": null,
+      "spicyLevel": null,
+      "isVegetarian": null,
+      "isAvailable": null,
+      "image": null,
+      "imageContentType": null
+    },
+    "order": {
+      "id": 1697,
+      "orderDate": null,
+      "status": null,
+      "totalAmount": null,
+      "paymentMethod": null,
+      "paymentReference": null,
+      "specialInstructions": null,
+      "deliveryAddress": null,
+      "customer": null
+    }
+  },
+  "error": null
+}
+2025-01-18 21:05:51,675 - {
+  "timestamp": "2025-01-18T21:05:51.675051",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/order-items/1598",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:51,751 - {
+  "timestamp": "2025-01-18T21:05:51.751764",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,776 - {
+  "timestamp": "2025-01-18T21:05:51.776994",
+  "method": "POST",
+  "url": "http://localhost:8080/api/reservations",
+  "request_data": {
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_amislndm@example.com",
+    "customerPhone": "+19280265373",
+    "specialRequests": "Window seat preferred"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1595,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_amislndm@example.com",
+    "customerPhone": "+19280265373",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,854 - {
+  "timestamp": "2025-01-18T21:05:51.853469",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,872 - {
+  "timestamp": "2025-01-18T21:05:51.872573",
+  "method": "POST",
+  "url": "http://localhost:8080/api/reservations",
+  "request_data": {
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_jcvtggyk@example.com",
+    "customerPhone": "+13467523629",
+    "specialRequests": "Window seat preferred"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1596,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_jcvtggyk@example.com",
+    "customerPhone": "+13467523629",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,886 - {
+  "timestamp": "2025-01-18T21:05:51.885784",
+  "method": "GET",
+  "url": "http://localhost:8080/api/reservations/1596",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "id": 1596,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_jcvtggyk@example.com",
+    "customerPhone": "+13467523629",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:51,966 - {
+  "timestamp": "2025-01-18T21:05:51.965473",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MSwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUxfQ.kvnyYNPqMOIpnMU1Hz07vjA3Bc_mS5Hkjr-7cWgL45Eu2u92EjZ6CMTRU-7bJbSJjolELddTceIao_J_9mcruQ"
+  },
+  "error": null
+}
+2025-01-18 21:05:51,982 - {
+  "timestamp": "2025-01-18T21:05:51.982830",
+  "method": "POST",
+  "url": "http://localhost:8080/api/reservations",
+  "request_data": {
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_vhtljjoy@example.com",
+    "customerPhone": "+11969066947",
+    "specialRequests": "Window seat preferred"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1597,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_vhtljjoy@example.com",
+    "customerPhone": "+11969066947",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:52,006 - {
+  "timestamp": "2025-01-18T21:05:52.006877",
+  "method": "PUT",
+  "url": "http://localhost:8080/api/reservations/1597",
+  "request_data": {
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "CONFIRMED",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_vhtljjoy@example.com",
+    "customerPhone": "+11969066947",
+    "specialRequests": "Window seat preferred",
+    "id": 1597
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1597,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "CONFIRMED",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_vhtljjoy@example.com",
+    "customerPhone": "+11969066947",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:52,085 - {
+  "timestamp": "2025-01-18T21:05:52.085007",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MiwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUyfQ.pScOThR21HRNp3RBpqBRXWqOoXruAOzX96no0XvH-i1VnPDojBdb6w6Y738Zg06hAfFIY5gNSP1n9foBAvF3fg"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,103 - {
+  "timestamp": "2025-01-18T21:05:52.103105",
+  "method": "POST",
+  "url": "http://localhost:8080/api/reservations",
+  "request_data": {
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_kvynqumv@example.com",
+    "customerPhone": "+19224640441",
+    "specialRequests": "Window seat preferred"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1598,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_kvynqumv@example.com",
+    "customerPhone": "+19224640441",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:52,129 - {
+  "timestamp": "2025-01-18T21:05:52.129032",
+  "method": "PATCH",
+  "url": "http://localhost:8080/api/reservations/1598",
+  "request_data": {
+    "id": 1598,
+    "status": "CANCELLED"
+  },
+  "response_status": 200,
+  "response_body": {
+    "id": 1598,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "CANCELLED",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_kvynqumv@example.com",
+    "customerPhone": "+19224640441",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:52,207 - {
+  "timestamp": "2025-01-18T21:05:52.207102",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MiwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUyfQ.pScOThR21HRNp3RBpqBRXWqOoXruAOzX96no0XvH-i1VnPDojBdb6w6Y738Zg06hAfFIY5gNSP1n9foBAvF3fg"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,222 - {
+  "timestamp": "2025-01-18T21:05:52.222822",
+  "method": "POST",
+  "url": "http://localhost:8080/api/reservations",
+  "request_data": {
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_ptwmkmhv@example.com",
+    "customerPhone": "+14664425799",
+    "specialRequests": "Window seat preferred"
+  },
+  "response_status": 201,
+  "response_body": {
+    "id": 1599,
+    "reservationDate": "2025-01-19T21:05:00Z",
+    "partySize": 4,
+    "status": "PENDING",
+    "customerName": "Bob Johnson",
+    "customerEmail": "test_ptwmkmhv@example.com",
+    "customerPhone": "+14664425799",
+    "specialRequests": "Window seat preferred",
+    "customer": null
+  },
+  "error": null
+}
+2025-01-18 21:05:52,239 - {
+  "timestamp": "2025-01-18T21:05:52.239517",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/reservations/1599",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
+2025-01-18 21:05:52,319 - {
+  "timestamp": "2025-01-18T21:05:52.318870",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MiwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUyfQ.pScOThR21HRNp3RBpqBRXWqOoXruAOzX96no0XvH-i1VnPDojBdb6w6Y738Zg06hAfFIY5gNSP1n9foBAvF3fg"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,365 - {
+  "timestamp": "2025-01-18T21:05:52.365047",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authorities",
+  "request_data": {
+    "name": "ROLE_TEST_3736"
+  },
+  "response_status": 201,
+  "response_body": {
+    "name": "ROLE_TEST_3736"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,442 - {
+  "timestamp": "2025-01-18T21:05:52.442955",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MiwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUyfQ.pScOThR21HRNp3RBpqBRXWqOoXruAOzX96no0XvH-i1VnPDojBdb6w6Y738Zg06hAfFIY5gNSP1n9foBAvF3fg"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,461 - {
+  "timestamp": "2025-01-18T21:05:52.461445",
+  "method": "GET",
+  "url": "http://localhost:8080/api/authorities",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": [
+    {
+      "name": "ROLE_ADMIN"
+    },
+    {
+      "name": "ROLE_TEST_1120"
+    },
+    {
+      "name": "ROLE_TEST_1458"
+    },
+    {
+      "name": "ROLE_TEST_1554"
+    },
+    {
+      "name": "ROLE_TEST_1637"
+    },
+    {
+      "name": "ROLE_TEST_1969"
+    },
+    {
+      "name": "ROLE_TEST_2172"
+    },
+    {
+      "name": "ROLE_TEST_2288"
+    },
+    {
+      "name": "ROLE_TEST_2357"
+    },
+    {
+      "name": "ROLE_TEST_2486"
+    },
+    {
+      "name": "ROLE_TEST_3415"
+    },
+    {
+      "name": "ROLE_TEST_3585"
+    },
+    {
+      "name": "ROLE_TEST_3631"
+    },
+    {
+      "name": "ROLE_TEST_3635"
+    },
+    {
+      "name": "ROLE_TEST_3736"
+    },
+    {
+      "name": "ROLE_TEST_4287"
+    },
+    {
+      "name": "ROLE_TEST_4322"
+    },
+    {
+      "name": "ROLE_TEST_4414"
+    },
+    {
+      "name": "ROLE_TEST_4595"
+    },
+    {
+      "name": "ROLE_TEST_4747"
+    },
+    {
+      "name": "ROLE_TEST_5026"
+    },
+    {
+      "name": "ROLE_TEST_5328"
+    },
+    {
+      "name": "ROLE_TEST_5355"
+    },
+    {
+      "name": "ROLE_TEST_6030"
+    },
+    {
+      "name": "ROLE_TEST_6069"
+    },
+    {
+      "name": "ROLE_TEST_6597"
+    },
+    {
+      "name": "ROLE_TEST_6751"
+    },
+    {
+      "name": "ROLE_TEST_7134"
+    },
+    {
+      "name": "ROLE_TEST_7146"
+    },
+    {
+      "name": "ROLE_TEST_7286"
+    },
+    {
+      "name": "ROLE_TEST_7476"
+    },
+    {
+      "name": "ROLE_TEST_7582"
+    },
+    {
+      "name": "ROLE_TEST_7595"
+    },
+    {
+      "name": "ROLE_TEST_7722"
+    },
+    {
+      "name": "ROLE_TEST_8158"
+    },
+    {
+      "name": "ROLE_TEST_8303"
+    },
+    {
+      "name": "ROLE_TEST_8650"
+    },
+    {
+      "name": "ROLE_TEST_9073"
+    },
+    {
+      "name": "ROLE_TEST_9466"
+    },
+    {
+      "name": "ROLE_TEST_9527"
+    },
+    {
+      "name": "ROLE_TEST_9777"
+    },
+    {
+      "name": "ROLE_USER"
+    }
+  ],
+  "error": null
+}
+2025-01-18 21:05:52,539 - {
+  "timestamp": "2025-01-18T21:05:52.539831",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MiwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUyfQ.pScOThR21HRNp3RBpqBRXWqOoXruAOzX96no0XvH-i1VnPDojBdb6w6Y738Zg06hAfFIY5gNSP1n9foBAvF3fg"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,557 - {
+  "timestamp": "2025-01-18T21:05:52.557774",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authorities",
+  "request_data": {
+    "name": "ROLE_TEST_2495"
+  },
+  "response_status": 201,
+  "response_body": {
+    "name": "ROLE_TEST_2495"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,565 - {
+  "timestamp": "2025-01-18T21:05:52.564955",
+  "method": "GET",
+  "url": "http://localhost:8080/api/authorities/ROLE_TEST_2495",
+  "request_data": null,
+  "response_status": 200,
+  "response_body": {
+    "name": "ROLE_TEST_2495"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,642 - {
+  "timestamp": "2025-01-18T21:05:52.642456",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authenticate",
+  "request_data": {
+    "username": "admin",
+    "password": "admin",
+    "rememberMe": true
+  },
+  "response_status": 200,
+  "response_body": {
+    "id_token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczOTc5NzU1MiwiYXV0aCI6IlJPTEVfQURNSU4gUk9MRV9VU0VSIiwiaWF0IjoxNzM3MjA1NTUyfQ.pScOThR21HRNp3RBpqBRXWqOoXruAOzX96no0XvH-i1VnPDojBdb6w6Y738Zg06hAfFIY5gNSP1n9foBAvF3fg"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,661 - {
+  "timestamp": "2025-01-18T21:05:52.661720",
+  "method": "POST",
+  "url": "http://localhost:8080/api/authorities",
+  "request_data": {
+    "name": "ROLE_TEST_1212"
+  },
+  "response_status": 201,
+  "response_body": {
+    "name": "ROLE_TEST_1212"
+  },
+  "error": null
+}
+2025-01-18 21:05:52,676 - {
+  "timestamp": "2025-01-18T21:05:52.676327",
+  "method": "DELETE",
+  "url": "http://localhost:8080/api/authorities/ROLE_TEST_1212",
+  "request_data": null,
+  "response_status": 204,
+  "response_body": null,
+  "error": null
+}
